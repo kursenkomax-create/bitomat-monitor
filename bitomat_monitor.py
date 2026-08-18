@@ -11,7 +11,7 @@ from playwright.async_api import async_playwright, TimeoutError as PlaywrightTim
 
 # ---------------- CONFIG ----------------
 
-CHECK_INTERVAL_SECONDS = 60
+CHECK_INTERVAL_SECONDS = 3600
 
 # Ігнорувати зміну курсу менше 0.20% від останнього повідомленого значення
 PRICE_THRESHOLD_PERCENT = 0.20
